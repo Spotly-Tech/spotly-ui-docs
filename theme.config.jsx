@@ -9,6 +9,6 @@ export default {
     footer: {
         text: "Spotly Docs"
     },
-    docsRepositoryBase: "https://github.com/Spotly-Tech/spotly-ui-docs/tree/main/pages",
+    docsRepositoryBase: "https://github.com/Spotly-Tech/spotly-ui-docs/tree/main/",
     exclude: ["/"],
 };
