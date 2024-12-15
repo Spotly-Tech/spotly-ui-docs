@@ -1,27 +1,33 @@
 {
-    "name": "spotly-ui-docs",
-    "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "lint": "next lint"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "description": "",
-    "dependencies": {
-        "next": "^15.1.0",
-        "react": "^19.0.0",
-        "react-dom": "^19.0.0"
-    },
-    "devDependencies": {
-        "@types/node": "22.10.2",
-        "@types/react": "19.0.1",
-        "eslint": "9.17.0",
-        "eslint-config-next": "15.1.0",
-        "typescript": "5.7.2"
-    }
+  "name": "spotly-ui-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "npx prettier . --write",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "next": "^15.1.0",
+    "nextra": "^3.2.5",
+    "nextra-theme-docs": "^3.2.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "@types/react": "19.0.1",
+    "eslint": "9.17.0",
+    "eslint-config-next": "15.1.0",
+    "husky": "^9.1.7",
+    "prettier": "3.4.2",
+    "typescript": "5.7.2"
+  }
 }
